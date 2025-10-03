@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    /* background-image: url(https://media.istockphoto.com/id/1363426847/vector/abstract-trendy-3d-swirl-background.jpg?s=1024x1024&w=is&k=20&c=ilSo2DTTYhtT5qvrsFZ35V0oc6mqYh_taEqrA-JjVpg=);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    background-color: black
+}
+
+
+.logo{
+    margin-left: 2rem;
+}
+.header{
+    background-color: rgba(179, 185, 191, 0.354);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: all 1s ease;
+}
+.header:hover{
+    transform: scale(0.95);
+}
+.nav{
+         width: 40rem;
+         
+          
+ margin-top: 0; 
+ margin-bottom: 0;      
+display: flex;
+justify-content: center;
+inline-size: none;
+gap: 3rem;
+margin-left: 8rem;
+float: initial;
+
+}
+.nav a{
+    
+text-decoration: none;
+color:  rgb(44, 5, 5);
+transition: 500ms
+;
+}
+.nav a:hover{
+    transform: scale(1.2);
+    color: rgb(248, 15, 15);
+}
+
+
+.seacrchbar{
+    margin-right: 2rem;
+    border-radius: 1rem ;
+    transition: all 2s ease-in-out;
+    padding: 10px;
+    background-color: rgba(241, 244, 245, 0.18);
+}
+.search-icon{
+     transition: all 1s ease-in-out;
+}
+.search-icon :hover{
+    transform: scale(1.5);
+    background-color: beige;
+}
+.header{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+
+}
+.anim img{
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 70px;
+
+}
+
+form{
+    display: block;
+    
+    width: 300px;
+    position: relative;
+
+    margin-top: 10px;
+    color: rgba(140, 254, 0, 0.34);
+    
+}
+input{
+    background-color:rgba(122, 113, 113, 0.379);
+}
+
+form h4{
+    text-align: center;
+    font-weight: 2000;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+form h4:hover{
+    transform: scale(1.1);
+    color: rgba(213, 102, 23, 0.799);
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
